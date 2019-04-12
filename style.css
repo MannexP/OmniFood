@@ -33,6 +33,7 @@ section {
 
 .box{
     padding: 1%;
+    
 }
 
 /* FEATURES */
@@ -123,10 +124,14 @@ h2:after{
     margin: 0 auto;
     margin-top: 30px; 
 
+
 }
+
 h3{
     font-size: 110%;
     margin-bottom: 15px;
+    word-spacing: 0;
+    
 }
 /* ---------------------- */
 /* PARAGRAPHS */
@@ -259,7 +264,6 @@ h3{
     border: 2px solid #e67e22;
     border-radius: 50%;
     text-align:center;
-    display: inline-block;
     height:55px;
     width:55px;
     font-size:30px;
@@ -275,3 +279,16 @@ width:auto;
 margin-right:10px;
 margin-top: 7%;
 }
+
+/* CITIES */
+.box img {
+width:100%;
+height: auto;
+margin-bottom:15px;
+
+}
+
+.city-feature{
+    margin-bottom: 15px;
+}
+
