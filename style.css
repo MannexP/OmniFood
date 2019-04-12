@@ -11,6 +11,15 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.clearfix{zoom:1}
+.clearfix:after{
+    content:'.';
+    clear: both;
+    display:block;
+    height:0;
+    visibility: hidden;
+
+}
 
 /* Reusable Componets */
 .row {
@@ -218,6 +227,9 @@ h3{
 }
 
 /* How It Works */
+.section-steps{
+    background-color: #f4f4f4;
+}
 
 .steps-box :first-child{
     text-align: right;
@@ -234,11 +246,13 @@ h3{
 }
 .works-step{
     padding-top: 1%;
+    margin-top:6%;
    
      
 }
 .works-step p {
     margin: 25px;
+    
 }
 .works-step div {
     color:#e67e22;
@@ -253,4 +267,11 @@ h3{
     margin-right: 20px;
     margin-top: 25px;
     float:left;
+}
+
+.btn-app img{
+height:50px;
+width:auto;
+margin-right:10px;
+margin-top: 7%;
 }
