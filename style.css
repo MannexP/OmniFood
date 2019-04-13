@@ -457,6 +457,7 @@ input[value]{
 footer{
     background-color: #333;
     padding:30px;
+    font-size:80%;
 }
 .footer-nav{
     list-style:none;
@@ -470,6 +471,7 @@ footer{
 .social-links li {
     display:inline-block;
     margin-right:20px;
+    margin-bottom:20px;
 }
 .footer-nav li:last-child,
 .social-links li:last-child{
@@ -495,15 +497,14 @@ footer{
 footer p{
     color:#888;
     text-align: center;
-    font-size:75%; 
-    margin-bottom: 10px;
-    margin-top: 5px;
+   margin-bottom:5px;
 
 }
 
 .social-links li a:link,
 .social-links li a:visited{
-    font-size:180%;
+    font-size:150%;
+    margin-bottom:px;
    
 }
 .ion-logo-facebook:hover{
