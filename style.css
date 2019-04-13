@@ -519,3 +519,9 @@ footer p{
 .ion-logo-twitter:hover{
     color:#00aced;
 }
+.ion-logo-facebook,
+.ion-logo-googleplus,
+.ion-logo-instagram,
+.ion-logo-twitter{
+    transition: color 0.2s;
+}
