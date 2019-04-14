@@ -1,16 +1,35 @@
-/* Big tablet to desktop */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1290px){
     .hero-text-box{
         width:100%;
         padding: 0 2%;
-        background-color:blue;
+        
     }
+    .row{ padding: 0 2%;}
 }
 
-/* Ipads and landscape view iphone */
+
+
+/* Big tablet to desktop 1023 - 1200*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width:100%;
+        padding: 0 5%;
+        
+    }
+    .row{ padding: 0 2%;}
+}
+
+
+
+/* Ipads and landscape view iphone 767 - 1023 */
 @media only screen and (max-width: 1023px){
+    .hero-text-box{
+        width:100%;
+        padding: 0 5%;
+        
+    }
+    .row{ padding: 0 2%;}
 
-}
 
 
 /* Small devices - tablets 481 - 767px */
@@ -22,7 +41,7 @@
 
 /* Small devices 0 - 480px */
 @media only screen and (max-width: 480px){
-
+    
 }
 
 
