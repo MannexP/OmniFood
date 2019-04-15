@@ -1,5 +1,7 @@
-$(document).ready(function() {
 
+
+$(document).ready(function() {
+    // For sticky navigation
     $('.js-section-features').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
@@ -7,11 +9,12 @@ $(document).ready(function() {
             $('nav').removeClass('sticky');
         }
     });
-});
-console.log("fick")
 
-// var waypoints = $('#handler-first').waypoint(function(direction) {
-//     notify(this.element.id + ' hit 25% from top of window') 
-//   }, {
-//     offset: '25%'
-//   })
+    $('.js--scroll-to-plans').click(function () {
+        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
+    });
+
+
+});
+
+
