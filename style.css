@@ -89,14 +89,11 @@ header{
 .main-nav li{
     display: inline-block;
     margin-left: 40px;
-   
-
-   
 
 }
 .main-nav li a:link,
 .main-nav li a:visited{
-    padding:  8px 0;
+padding:  8px 0;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -146,12 +143,12 @@ h1,h2,h3{
     letter-spacing: 1px; 
 }
 h1{
-    margin: 0;
-    font-size: 240%;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: #fff;
-    margin-bottom: 10px;
+    font-size: 240%;
     word-spacing: 4px;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
 h2{
 font-size: 180%;
@@ -270,7 +267,7 @@ input[type=submit]:active{
     width:100%;
     height:auto;
     transform: scale(1.15);
-    transition:transform 0.5s, opacity 0.5s;;
+    transition:transform 0.5s, opacity 0.5s;
 }
 .section-meals{
     padding: 0;
@@ -591,3 +588,4 @@ footer p{
 .js--wp-3.animated {
   opacity:1;
 }
+
